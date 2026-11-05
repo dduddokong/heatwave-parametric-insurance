@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Raw / large climate data (ERA5 downloads are not tracked)
+data/*
+!data/README.md
+*.nc
+*.grib
+*.grb
+
+# Unpublished manuscripts and drafts
+*.pdf
+*.docx
+*.tex.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
